@@ -52,4 +52,5 @@ def predict():
     return render_template('index.html',pred = result)
 
 if __name__ == "__main__":
-    app.run(debug = True) 
+    #app.run(debug = True) 
+    app.run(host = '0.0.0.0',port = 8080,debug = False)  # bydefalt debug = False he false ch aasate so nahi write kele tari chalate
