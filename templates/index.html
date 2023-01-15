@@ -1,0 +1,28 @@
+<html>
+<head>
+
+</head>
+<body>
+    <h1> House Price Predictions</h1>
+    <form  action="/predict" method="post">
+        <label>CRIM :</label> <input type="text" name="CRIM">
+        <label>ZN :</label> <input type="text" name="ZN"><br><br>
+        <label>INDUS :</label> <input type="text" name="INDUS">
+        <label>CHAS :</label> <input type="text" name="CHAS"><br><br>
+        <label>NOX :</label> <input type="text" name="NOX">
+        <label>RM :</label> <input type="text" name="RM"><br><br>
+        <label>AGE :</label> <input type="text" name="AGE">
+        <label>DIS :</label> <input type="text" name="DIS"><br><br>
+        <label>RAD :</label> <input type="text" name="RAD">
+        <label>TAX :</label> <input type="text" name="TAX"><br><br>
+        <label>PTRATIO :</label> <input type="text" name="PTRATIO">
+        <label>B :</label> <input type="text" name="B"><br><br>
+        <label>LSTAT :</label> <input type="text" name="LSTAT"><br><br> 
+
+        <input type="submit" value="Predict"> <br><br>
+        {{pred}}
+    
+    </form>
+</body>
+
+</html>
